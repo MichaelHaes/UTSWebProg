@@ -5,6 +5,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
     <body>
+        <?php
+        session_start();
+        ?>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php">Tadika Mesra</a>
@@ -27,12 +30,19 @@
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">New Password</label>
-                    <input type="text" name="new_password" class="form-control" />
+                    <input type="password" name="new_password" class="form-control" />
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Confirm Password</label>
-                    <input type="text" name="confirm_password" class="form-control" />
+                    <input type="password" name="confirm_password" class="form-control" />
                 </div>
+                <?php if(isset($_SESSION['diffPass'])) {?>
+                    <div class="alert alert-danger" role="alert">
+                        New Password and Confirm Password is not the same!
+                    </div>
+                <?php } 
+                session_destroy();
+                ?>
                 <button type="submit" class="btn btn-primary">Confirm</button></br>
             </form>
         </div>
