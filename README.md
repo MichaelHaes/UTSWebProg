@@ -24,9 +24,6 @@ echo"<pre>".print_r($testGD,true)."</pre>";
 <img src="https://user-images.githubusercontent.com/115067526/228824044-0c5d94d6-5abe-4243-8471-97b27dfcdd70.png" width="40%" height="40%" /> <br>
 
 2. Copy php_gd.dll to System32 <br>
-C:\xampp\php\ext <br>
 <img src="https://user-images.githubusercontent.com/115067526/228824675-24d80cd9-fade-4097-a0d6-3796964da6a9.png" width="50%" height="50%" /> <br>
-
-C:\Windows\System32 <br>
 <img src="https://user-images.githubusercontent.com/115067526/228825034-e8e2a030-32d7-417b-ad6e-b2e645e94be7.png" width="50%" height="50%" /> <br>
 
