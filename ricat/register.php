@@ -75,7 +75,7 @@
                         Password and Confirm Password is not the same!
                     </div>
                 <?php } 
-                $builder->save('out.jpg');
+                $builder->save('foto/out.jpg');
                 session_destroy();
                 ?>
                 <button type="submit" class="btn btn-primary">Register</button>
