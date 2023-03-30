@@ -4,5 +4,5 @@
 <b>Composer</b> <br>
 composer init
 
-<b>Buat captcha</b> <br>
+<b>Gregwar Captcha</b> <br>
 composer require gregwar/captcha
