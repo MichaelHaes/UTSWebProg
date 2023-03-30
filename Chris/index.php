@@ -21,7 +21,7 @@
         </nav>
         
         <div class="container">
-            <h1 class="text-center fs-1"><b>Tadika Mesra Junior High</b></h1>
+            <h1 class="text-center fs-1"><b>Tadika Mesra Junior</b></h1>
             <br/>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
