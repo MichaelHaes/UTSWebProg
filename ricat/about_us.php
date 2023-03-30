@@ -36,7 +36,7 @@
                 <div class="mx-4">
                     <div class="d-flex flex-column">
                         <div class="p-2">
-                            <p>Richard  BAcot Tandean<br/>(000000058309)</p>
+                            <p>Richard Tandean<br/>(000000058309)</p>
                         </div>
                         <div class="p-2">
                             <img src="foto/john.jpeg" class="img-fluid"/>
