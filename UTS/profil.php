@@ -36,7 +36,7 @@
             $result->execute([$_SESSION['id']]);
             $row = $result->fetch(PDO::FETCH_ASSOC);
             echo "<pre>";
-            echo "<img src=./src/$row[foto] width=50%> <br>";
+            echo "<img src=./src/$row[foto] width=50% height=50%> <br>";
             echo "Nama : $row[nama] <br>";
             echo "Tempat Lahir : $row[tempatLahir] <br>";
             echo "Tanggal Lahir : $row[tanggalLahir] <br>";
